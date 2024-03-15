@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --background-color: lightgrey;
+  --container-color: #6564db;
+  --text-color: #000;
+  --button-color: #6564db;
+}
+
+/* ---------------------------------- Body ---------------------------------- */
+body {
+  background-color: var(--background-color);
+}
+
+/* ---------------------------------- Header ---------------------------------- */
+header>h1 {
+  text-align: center;
+  background-color: var(--container-color);
+  box-shadow: 0px 0px 3px 2px;
+  height: 3.25rem;
+  color: whitesmoke;
+}
+
+/* ---------------------------------- Main ---------------------------------- */
+main {
+  margin: 2rem auto;
+  /* background-color: darkgrey; */
+  padding-top: 0.25rem;
+  padding-inline: 2rem;
+  height: 20rem;
+  max-width: max-content;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 3px 1px; */
+}
+
+/* -------------------- Output-Table ----------------------------- */
+#app {
+  text-align: center;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+table {
+  margin: 2rem auto;
+  font-size: large;
+  font-weight: 650;
+  box-shadow: 0px 0px 3px 2px;
+  border-collapse: collapse;
+}
+
+table button {
+  border: none;
+  background: none;
+  font-size: medium;
+}
+
+table button:hover {
+  transform: scale(110%);
+}
+
+th {
+  border: 2px solid var(--container-color);
+  background-color: var(--button-color);
+  padding-inline: 1rem;
+  border: none;
+  text-align: left;
+  height: 1.5rem;
+  color: whitesmoke;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+  border: none;
+  height: 1.75rem;
+}
+
+tr:nth-child(odd) {
+  background-color: darkgrey;
+  border: none;
+  height: 1.75rem;
+}
+
+/* ---------------------------------- Input-App -------------------------------- */
+.inputShoppingList {
+  text-align: center;
+  box-shadow: 0px 0px 3px 1px;
+}
+
+.inputShoppingList input {
+  box-shadow: 0px 0px 3px 1px
+}
+
+/* ---------------------------------- Footer ---------------------------------- */
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+{
+  "shoppingList": [
+    {
+      "id": "1",
+      "name": "Yogurt Dill Dip",
+      "amount": 250,
+      "unit": "ml"
+    },
+    {
+      "id": "2",
+      "name": "Salmon",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "id": "3",
+      "name": "Parsley potatoes",
+      "amount": 500,
+      "unit": "g"
+    }
+  ]
+}
